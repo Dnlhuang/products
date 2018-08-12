@@ -15,3 +15,6 @@ print(products)
 
 n = products[1][0] # products清單中第“０”格的第“０”
 print(n)
+
+for p in products:
+    print(p[0], '的價格是', p[1])
