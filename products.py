@@ -7,10 +7,7 @@ while True:
     if name == 'q':
         break
     price = input('請輸入商品價格：')
-    p = [] # 建立清單中的小清單
-    p.append(name)
-    p.append(price)  # 第10~12行，可以寫成 p = [name, price]
-    products.append(p) # 把小清單裝入大清單中  # 第10~13行，可以寫成 products.append([name, price])  
+    products.append([name, price])  
 print(products)
 
 n = products[1][0] # products清單中第“０”格的第“０”
